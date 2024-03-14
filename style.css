@@ -1,3 +1,68 @@
+
+
 .gallery img{
     width: 100%;
+}
+
+h2 {
+text-align: center;
+color: cornflowerblue;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
+font-style: italic;
+}
+
+h4 {
+    color: cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+/* MENU BAR */
+#menu{
+    width:100%;
+    height:40px;
+    background-color: cornflowerblue;
+    padding-top: 18px;
+}
+
+#menu a{
+    color:#ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration:none;
+    font-weight: 800;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu a:hover{
+     color: #5077bd;
+}
+
+/* ABOUT BOX */
+.about-box {
+    width: 33%; 
+    margin: auto; 
+    background-color: rgb(215, 229, 250); 
+    border-radius: 15px; 
+    padding: 20px; 
+}
+
+.about-box img {
+    width: 100px;
+    margin: auto;
+    border-radius: 500px;
+}
+
+.about-box p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.about-box img:hover {
+    content: url(images/aliencat.png);
 }
